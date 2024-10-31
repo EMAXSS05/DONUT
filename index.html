@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+          display:flex;
+          justify-content:center;
+          align-items:center;
+          height:100vh;
+          position: absolute;
+          left: 15%;
+          bottom: 26%;
+        }
+        .anilloexterior{
+          position:absolute;
+          bottom:52;
+          width: 198px;
+          height: 200px;
+          border-radius: 50%;
+          background: conic-gradient(#F7EC7D 0 75%,     /* Sección anaranjada (10% del círculo) */
+            #E38F66 10% 100%);
+          display:flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .anillointerior{
+          width: 120px;
+          height: 120px;
+          background-color: #62306D; 
+          border-radius: 50%;
+        }
+        body{
+          background-color:#62306D;
+          overflow: hidden;
+        }
+        main{
+          position: absolute;
+          top:300px;
+            background-image: url(img/donuts.png);
+            width: 100%;
+            height: 300px;
+        }
+        section{
+            font-family: Arial, sans-serif;
+            color: #F7EC7D;
+        }
+        h1{
+          text-align: center;
+          position: relative;
+          top:50px;
+          font-size: 55px;
+        }
+        p{
+         position: relative;
+         top: 84px;
+         left: 25%;
+         font-size: 32px;
+        }
+        *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          
+        }
+        footer{
+          position: relative;
+          left: 49%;
+          top:500px;
+          font-size: 14px;
+          color: #F7EC7D;
+        }
+      </style>
+      
+</head>
+<body>
+    <header>
+    <div class="container">
+        <div class="anilloexterior">
+          <div class="anillointerior"></div>
+        </div>
+            </div>
+    
+      <section>
+         <h1>Donut</h1>
+         <p>A donut is a small, circular cake, fried in hot fat, either with a hole in the<br> middle or filled with jam.</p>
+      </section>
+     </header>
+    <main></main>
+    
+    <footer>
+      <h3>&copy;2024</h3>
+    </footer>
+    
+</body>
+</html>
